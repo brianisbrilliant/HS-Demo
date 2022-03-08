@@ -49,10 +49,9 @@ public class MoveTo : MonoBehaviour
         if(Vector3.Distance(transform.position, target.position) < maxDistance) {
 
             agent.destination = target.position;
-            anim.SetFloat("Speed", agent.velocity.magnitude);
         }
 
-
+        anim.SetFloat("Speed", agent.velocity.magnitude);
         Debug.Log("Speed: " + agent.velocity.magnitude);
     }
 }
