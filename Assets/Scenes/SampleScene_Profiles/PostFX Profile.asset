@@ -18,7 +18,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 5
+    value: 3
   threshold:
     overrideState: 0
     value: 1
@@ -92,10 +92,10 @@ MonoBehaviour:
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.67
+    value: 0.675
   smoothness:
     overrideState: 1
-    value: 0.043
+    value: 0.059
   roundness:
     overrideState: 1
     value: 0
@@ -176,14 +176,14 @@ MonoBehaviour:
     value: 1
   gradingMode:
     overrideState: 1
-    value: 1
+    value: 0
   externalLut:
     overrideState: 0
     value: {fileID: 0}
     defaultState: 1
   tonemapper:
     overrideState: 1
-    value: 2
+    value: 1
   toneCurveToeStrength:
     overrideState: 0
     value: 0
@@ -223,13 +223,13 @@ MonoBehaviour:
     value: 0
   saturation:
     overrideState: 1
-    value: 10
+    value: 2.8
   brightness:
     overrideState: 0
     value: 0
   postExposure:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 0.33
   contrast:
     overrideState: 0
     value: 0
@@ -262,10 +262,10 @@ MonoBehaviour:
     value: 100
   lift:
     overrideState: 1
-    value: {x: 0.8451347, y: 0.8812562, z: 1, w: 0}
+    value: {x: 0.996195, y: 0.99837595, z: 1, w: 0}
   gamma:
-    overrideState: 0
-    value: {x: 1, y: 1, z: 1, w: 0}
+    overrideState: 1
+    value: {x: 1, y: 0.8773223, z: 0.78847915, w: 0.0021055846}
   gain:
     overrideState: 0
     value: {x: 1, y: 1, z: 1, w: 0}
